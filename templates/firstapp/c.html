@@ -1,0 +1,9 @@
+<h1>This is your second page</h1>
+<h2> Your Text : {{ t }}</h2>
+<h3>No of words are : {{ count }}</h3>
+<br/>
+<br/>
+{% for word,cnt in sw %}
+{{ word }} - {{ cnt }}
+<br/>
+{% endfor %}
